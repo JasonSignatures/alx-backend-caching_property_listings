@@ -33,3 +33,6 @@ def get_redis_cache_metrics():
     )
 
     return metrics
+
+hit_ratio = hits / (hits + misses)
+
